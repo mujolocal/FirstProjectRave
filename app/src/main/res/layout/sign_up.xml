@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/sign_up_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/name_edit_txt"
+        android:text="@string/sign_up_txt_string"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+    <EditText
+android:layout_centerHorizontal="true"
+        android:id="@+id/name_edit_txt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+       android:layout_above="@id/email_edittext"
+        android:hint="@string/name_edittxt_string"
+        />
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:id="@+id/email_edittext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+       android:layout_above="@id/password_edittext"
+        android:hint="@string/email_edittxt_string"/>
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:id="@+id/password_edittext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:hint="@string/password_edittxt_string"/>
+    <RadioButton
+        android:id="@+id/terms_read_toggle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_edittext"
+        android:layout_alignStart="@id/password_edittext"
+        android:layout_marginRight="-15dip"/>
+    <TextView
+        android:id="@+id/terms_read_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_txt_string"
+       android:layout_alignBaseline="@id/terms_read_toggle_button"
+        android:layout_toEndOf="@id/terms_read_toggle_button"
+        />
+    <Button
+        android:id="@+id/terms_read_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_btn_string"
+        android:layout_below="@id/password_edittext"
+        android:layout_alignBaseline="@id/terms_read_toggle_button"
+        android:layout_toEndOf="@id/terms_read_text_view"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="@color/black"
+        android:layout_marginLeft="-10dip"
+        />
+    <Button
+        android:id="@+id/create_account_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account_button_string"
+        android:layout_below="@id/terms_read_toggle_button"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/already_signed_in_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_account_txt_string"
+        android:layout_alignBaseline="@id/already_signed_in_btn"
+        android:layout_alignStart="@id/password_edittext"
+        />
+    <Button
+
+        android:id="@+id/already_signed_in_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_account_btn_string"
+        android:layout_below="@id/create_account_btn"
+        android:layout_toRightOf="@id/already_signed_in_txt"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="@color/black"
+        android:layout_marginLeft="-10dip"
+
+        />
+
+
+
+
+</RelativeLayout>

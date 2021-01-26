@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FirstProjectRave</string>
+    <string name="button_1_string">1</string>
+    <string name="button_2_string">2</string>
+    <string name="button_3_string">3</string>
+    <string name="button_4_string">4</string>
+    <string name="button_5_string">5</string>
+    <string name="button_6_string">6</string>
+    <string name="button_7_string">7</string>
+    <string name="button_8_string">8</string>
+    <string name="button_9_string">9</string>
+    <string name="button_pound_string">#</string>
+    <string name="button_0_string">0</string>
+    <string name="button_asterix_string">*</string>
+
+    <string name="sign_up_txt_string">Sign Up</string>
+    <string name="name_edittxt_string">Name</string>
+    <string name="email_edittxt_string">E-mail</string>
+    <string name="password_edittxt_string">Password</string>
+    <string name="terms_txt_string">I read and agrre to </string>
+    <string name="terms_btn_string">Terms and Conditions</string>
+    <string name="create_account_button_string"> CREATE ACCOUNT</string>
+    <string name="already_account_txt_string">Already have an account</string>
+    <string name="already_account_btn_string">Sign In</string>
+
+</resources>
